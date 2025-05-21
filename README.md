@@ -6,7 +6,7 @@ Una aplicación en la que podras ver e informarte de los datos más interesantes
 
 - APOD (Astronomical Picture Of the Day)
 - NeoWs (Near Earth Object Web Service)
-- EONET (The Earth Observatory Natural Event Tracker)
+- EPIC (Earth Polychromatic Imaging Camera)
 
 ## Instalación
 
