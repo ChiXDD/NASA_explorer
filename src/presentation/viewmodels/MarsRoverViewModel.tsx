@@ -93,7 +93,6 @@ export default function MarsRoverViewModel() {
         onEndReached={() => {
           if (hasMore && !loading) loadPhotos()
         }}
-        onEndReachedThreshold={0.5}
         contentContainerStyle={{ paddingBottom: 40 }}
       />
     </View>
