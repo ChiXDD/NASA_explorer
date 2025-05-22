@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from 'react'
 const lightTheme = {
   dark: false,
   colors: {
-    background: '#ffffff',
+    background: '#F9F6E6',
     primary: '#0b3d91',
     buttons: '#EC7FA9',
     text: '#000000',

@@ -7,4 +7,5 @@ export const ROUTES: { [K in keyof HomeStackParamList]: K } = {
   EPIC: 'EPIC',
   Rover: 'Rover',
   Library: 'Library',
+  'EPIC & Rover': 'EPIC & Rover',
 }
