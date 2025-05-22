@@ -5,4 +5,5 @@ export type HomeStackParamList = {
   EPIC: undefined
   Rover: undefined
   Library: undefined
+  'EPIC & Rover': undefined
 }
