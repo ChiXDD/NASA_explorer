@@ -4,4 +4,5 @@ export type HomeStackParamList = {
   NeoWs: undefined
   EPIC: undefined
   Rover: undefined
+  Library: undefined
 }
