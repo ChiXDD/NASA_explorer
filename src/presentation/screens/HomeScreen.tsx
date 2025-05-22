@@ -12,24 +12,14 @@ export const HomeScreen = ({ navigation }: Props) => {
 
   return (
     <ScrollView contentContainerStyle={[{ backgroundColor: theme.colors.background }]}>
-      <View style={[styles.container, { backgroundColor: theme.colors.background }]}>
-        <TouchableOpacity style={[styles.themeButton, { backgroundColor: theme.colors.buttons }]} onPress={toggleTheme}>
-          <Text style={styles.text}> {theme.dark ? '☀️' : '🌙'} </Text>
-        </TouchableOpacity>
-        <Text style={[styles.text, { color: theme.colors.text }]}>Welcome to NASA explorer</Text>
-      </View>
-
       <View style={styles.buttonsContainer}>
+        <Text style={[styles.text, { color: theme.colors.text }]}>Welcome to NASA explorer</Text>
         <TouchableOpacity onPress={() => navigation.navigate('NeoWs')} style={[styles.button, { backgroundColor: theme.colors.buttons }]}>
           <Text style={[styles.text, { color: theme.colors.text }]}>Near Earth Objects</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => navigation.navigate('EPIC')} style={[styles.button, { backgroundColor: theme.colors.buttons }]}>
-          <Text style={[styles.text, { color: theme.colors.text }]}>EPIC</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity onPress={() => navigation.navigate('Rover')} style={[styles.button, { backgroundColor: theme.colors.buttons }]}>
-          <Text style={[styles.text, { color: theme.colors.text }]}>Mars Rover Photos</Text>
+        <TouchableOpacity onPress={() => navigation.navigate('EPIC & Rover')} style={[styles.button, { backgroundColor: theme.colors.buttons }]}>
+          <Text style={[styles.text, { color: theme.colors.text }]}>EPIC & Rover Library</Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => navigation.navigate('Library')} style={[styles.button, { backgroundColor: theme.colors.buttons }]}>
