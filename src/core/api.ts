@@ -19,3 +19,8 @@ export const ROVER_CONFIG = {
   URL: 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=',
   TIMEOUT: 5000,
 }
+
+export const LIBRARY_CONFIG = {
+  URL: 'https://images-api.nasa.gov/search?q=',
+  TIMEOUT: 5000,
+}
