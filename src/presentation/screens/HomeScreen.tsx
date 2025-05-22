@@ -31,6 +31,10 @@ export const HomeScreen = ({ navigation }: Props) => {
         <TouchableOpacity onPress={() => navigation.navigate('Rover')} style={[styles.button, { backgroundColor: theme.colors.buttons }]}>
           <Text style={[styles.text, { color: theme.colors.text }]}>Mars Rover Photos</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity onPress={() => navigation.navigate('Library')} style={[styles.button, { backgroundColor: theme.colors.buttons }]}>
+          <Text style={[styles.text, { color: theme.colors.text }]}>Image Library</Text>
+        </TouchableOpacity>
       </View>
 
       <View>
