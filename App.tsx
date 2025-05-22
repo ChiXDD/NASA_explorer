@@ -3,6 +3,7 @@ import APODScreen from './src/presentation/screens/APODScreen'
 import NeoWsScreen from './src/presentation/screens/NeoWsScreen'
 import EPICScreen from './src/presentation/screens/EPICScreen'
 import MarsRoverScreen from './src/presentation/screens/MarsRoverView'
+import LibraryScreen from './src/presentation/screens/LibraryScreen'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { HomeStackParamList } from './src/navigation/types'
@@ -21,6 +22,7 @@ export default function App() {
           <Stack.Screen name={ROUTES.NeoWs} component={NeoWsScreen} />
           <Stack.Screen name={ROUTES.EPIC} component={EPICScreen} />
           <Stack.Screen name={ROUTES.Rover} component={MarsRoverScreen} />
+          <Stack.Screen name={ROUTES.Library} component={LibraryScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </ThemeProvider>
